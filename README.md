@@ -1,1 +1,9 @@
-# CDDBaseProject
+### CDDBaseProject
+
+------
+
+#### 项目快速初始化整理
+
+- 目录结构
+- 基础配置
+- 公共文件
