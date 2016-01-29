@@ -14,6 +14,8 @@
 		E26DE3EA1C51CDD100D1326D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26DE3E81C51CDD100D1326D /* LaunchScreen.storyboard */; };
 		E26DE3F51C51CDD100D1326D /* CDDBaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26DE3F41C51CDD100D1326D /* CDDBaseProjectTests.m */; };
 		E26DE4001C51CDD100D1326D /* CDDBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26DE3FF1C51CDD100D1326D /* CDDBaseProjectUITests.m */; };
+		E2BD7E401C5B18D300445A18 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */; };
+		E2BD7E431C5B19D700445A18 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E421C5B19D700445A18 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		E2BD7E391C5B048800445A18 /* DefineUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineUI.h; sourceTree = "<group>"; };
 		E2BD7E3A1C5B098B00445A18 /* DefineLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineLog.h; sourceTree = "<group>"; };
 		E2BD7E3B1C5B0BE600445A18 /* DefineAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineAPI.h; sourceTree = "<group>"; };
+		E2BD7E3E1C5B18D300445A18 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		E2BD7E411C5B19D700445A18 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E2BD7E421C5B19D700445A18 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,9 +421,29 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		E2BD7E3C1C5B189E00445A18 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD7E3E1C5B18D300445A18 /* NSDate+Extension.h */,
+				E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		E2BD7E3D1C5B189E00445A18 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD7E411C5B19D700445A18 /* UIView+Extension.h */,
+				E2BD7E421C5B19D700445A18 /* UIView+Extension.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		E2F0F6391C577F7C00A0B757 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				E2BD7E3C1C5B189E00445A18 /* Foundation */,
+				E2BD7E3D1C5B189E00445A18 /* UIKit */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -628,6 +654,8 @@
 			files = (
 				E26DE3DF1C51CDD100D1326D /* AppDelegate.m in Sources */,
 				E26DE3DC1C51CDD100D1326D /* main.m in Sources */,
+				E2BD7E431C5B19D700445A18 /* UIView+Extension.m in Sources */,
+				E2BD7E401C5B18D300445A18 /* NSDate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
