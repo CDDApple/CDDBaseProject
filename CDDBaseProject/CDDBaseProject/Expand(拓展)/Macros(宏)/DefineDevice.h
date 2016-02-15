@@ -17,7 +17,7 @@
  iphone6Plus 6sPlus {{0, 0}, {414, 736}}  1920*1080
  Apple Watch 1.65英寸 320*640
  */
-
+#define M_SCREEN_BOUNDS ([UIScreen mainScreen].bounds)
 /** 主屏幕的高度 */
 #define M_SCREEN_H [[UIScreen mainScreen] bounds].size.height
 /** 主屏幕的宽度 */
@@ -84,26 +84,11 @@
 /** 当前国家 */
 #define LOCAL_COUNTRY [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]
 
-/** 当前使用Xcode iPhone OS SDK 的版本 */
-#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_8_0
-NSLog(@"当前使用Xcode iPhone OS SDK 8.0 以后版本的处理");
-#else
-NSLog(@"当前使用Xcode iPhone OS SDK 8.0 之前版本的处理");
-#endif
-
-
 /** 判断设备室真机还是模拟器 */
 #if TARGET_OS_IPHONE
 #endif
 
 #if TARGET_IPHONE_SIMULATOR
-#endif
-
-/** 判断系统为64位还是32位 */
-#if __LP64__
-NSLog(@"64");
-#else
-NSLog(@"32");
 #endif
 
 #endif /* DefineDevice_h */

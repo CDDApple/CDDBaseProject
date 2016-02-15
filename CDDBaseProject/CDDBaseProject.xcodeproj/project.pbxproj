@@ -16,6 +16,21 @@
 		E26DE4001C51CDD100D1326D /* CDDBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26DE3FF1C51CDD100D1326D /* CDDBaseProjectUITests.m */; };
 		E2BD7E401C5B18D300445A18 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */; };
 		E2BD7E431C5B19D700445A18 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E421C5B19D700445A18 /* UIView+Extension.m */; };
+		E2BD7E461C5B1B8400445A18 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E451C5B1B8400445A18 /* NewFeatureViewController.m */; };
+		E2BD7E491C5B466C00445A18 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7E481C5B466C00445A18 /* NSDictionary+Log.m */; };
+		E2DA113B1C716CBC003FC68A /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA113A1C716CBC003FC68A /* IndexViewController.m */; };
+		E2DA113E1C716CD7003FC68A /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA113D1C716CD7003FC68A /* CourseViewController.m */; };
+		E2DA11411C716CEB003FC68A /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11401C716CEB003FC68A /* ReadViewController.m */; };
+		E2DA11441C716CFA003FC68A /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11431C716CFA003FC68A /* MeViewController.m */; };
+		E2DA11471C717B2F003FC68A /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11461C717B2F003FC68A /* NSString+Trims.m */; };
+		E2DA114A1C717E84003FC68A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11491C717E84003FC68A /* UIButton+Block.m */; };
+		E2DA114D1C717EB4003FC68A /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA114C1C717EB4003FC68A /* UIButton+CountDown.m */; };
+		E2DA11511C71BF81003FC68A /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11501C71BF81003FC68A /* NavigationViewController.m */; };
+		E2DA11541C71BFE2003FC68A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11531C71BFE2003FC68A /* UIBarButtonItem+Extension.m */; };
+		E2DA11571C71C05F003FC68A /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11561C71C05F003FC68A /* TabBarViewController.m */; };
+		E2DA115A1C71C0B8003FC68A /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11591C71C0B8003FC68A /* MainTabBar.m */; };
+		E2DA115D1C71C12A003FC68A /* MainTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA115C1C71C12A003FC68A /* MainTabButton.m */; };
+		E2DA11611C71C442003FC68A /* LaunchImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA11601C71C442003FC68A /* LaunchImgViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +76,38 @@
 		E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		E2BD7E411C5B19D700445A18 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E2BD7E421C5B19D700445A18 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E2BD7E441C5B1B8400445A18 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		E2BD7E451C5B1B8400445A18 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		E2BD7E471C5B466C00445A18 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		E2BD7E481C5B466C00445A18 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		E2DA11391C716CBC003FC68A /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		E2DA113A1C716CBC003FC68A /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		E2DA113C1C716CD7003FC68A /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		E2DA113D1C716CD7003FC68A /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		E2DA113F1C716CEB003FC68A /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		E2DA11401C716CEB003FC68A /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		E2DA11421C716CFA003FC68A /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E2DA11431C716CFA003FC68A /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E2DA11451C717B2F003FC68A /* NSString+Trims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trims.h"; sourceTree = "<group>"; };
+		E2DA11461C717B2F003FC68A /* NSString+Trims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
+		E2DA11481C717E84003FC68A /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		E2DA11491C717E84003FC68A /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		E2DA114B1C717EB4003FC68A /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		E2DA114C1C717EB4003FC68A /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		E2DA114E1C71A223003FC68A /* ThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		E2DA114F1C71BF81003FC68A /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		E2DA11501C71BF81003FC68A /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		E2DA11521C71BFE2003FC68A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E2DA11531C71BFE2003FC68A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E2DA11551C71C05F003FC68A /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		E2DA11561C71C05F003FC68A /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		E2DA11581C71C0B8003FC68A /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		E2DA11591C71C0B8003FC68A /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		E2DA115B1C71C12A003FC68A /* MainTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabButton.h; sourceTree = "<group>"; };
+		E2DA115C1C71C12A003FC68A /* MainTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabButton.m; sourceTree = "<group>"; };
+		E2DA115E1C71C202003FC68A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E2DA115F1C71C442003FC68A /* LaunchImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImgViewController.h; sourceTree = "<group>"; };
+		E2DA11601C71C442003FC68A /* LaunchImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchImgViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +192,7 @@
 				E26DE3E81C51CDD100D1326D /* LaunchScreen.storyboard */,
 				E26DE3EB1C51CDD100D1326D /* Info.plist */,
 				E26DE3DB1C51CDD100D1326D /* main.m */,
+				E2DA115E1C71C202003FC68A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -217,6 +265,8 @@
 		E26DE4111C51D5FF00D1326D /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA114F1C71BF81003FC68A /* NavigationViewController.h */,
+				E2DA11501C71BF81003FC68A /* NavigationViewController.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -224,6 +274,8 @@
 		E26DE4121C51D5FF00D1326D /* Newfeature(新特性) */ = {
 			isa = PBXGroup;
 			children = (
+				E2BD7E441C5B1B8400445A18 /* NewFeatureViewController.h */,
+				E2BD7E451C5B1B8400445A18 /* NewFeatureViewController.m */,
 			);
 			path = "Newfeature(新特性)";
 			sourceTree = "<group>";
@@ -254,6 +306,8 @@
 		E26DE4161C51D5FF00D1326D /* Start(启动页) */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA115F1C71C442003FC68A /* LaunchImgViewController.h */,
+				E2DA11601C71C442003FC68A /* LaunchImgViewController.m */,
 			);
 			path = "Start(启动页)";
 			sourceTree = "<group>";
@@ -261,6 +315,12 @@
 		E26DE4171C51D5FF00D1326D /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA11551C71C05F003FC68A /* TabBarViewController.h */,
+				E2DA11561C71C05F003FC68A /* TabBarViewController.m */,
+				E2DA11581C71C0B8003FC68A /* MainTabBar.h */,
+				E2DA11591C71C0B8003FC68A /* MainTabBar.m */,
+				E2DA115B1C71C12A003FC68A /* MainTabButton.h */,
+				E2DA115C1C71C12A003FC68A /* MainTabButton.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -326,6 +386,8 @@
 		E26DE41F1C521F0600D1326D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA113F1C716CEB003FC68A /* ReadViewController.h */,
+				E2DA11401C716CEB003FC68A /* ReadViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -354,6 +416,8 @@
 		E26DE4241C521F6B00D1326D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA11391C716CBC003FC68A /* IndexViewController.h */,
+				E2DA113A1C716CBC003FC68A /* IndexViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -382,6 +446,8 @@
 		E26DE4291C521F7900D1326D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA113C1C716CD7003FC68A /* CourseViewController.h */,
+				E2DA113D1C716CD7003FC68A /* CourseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -410,6 +476,8 @@
 		E26DE42E1C521F8600D1326D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E2DA11421C716CFA003FC68A /* MeViewController.h */,
+				E2DA11431C716CFA003FC68A /* MeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -426,6 +494,10 @@
 			children = (
 				E2BD7E3E1C5B18D300445A18 /* NSDate+Extension.h */,
 				E2BD7E3F1C5B18D300445A18 /* NSDate+Extension.m */,
+				E2BD7E471C5B466C00445A18 /* NSDictionary+Log.h */,
+				E2BD7E481C5B466C00445A18 /* NSDictionary+Log.m */,
+				E2DA11451C717B2F003FC68A /* NSString+Trims.h */,
+				E2DA11461C717B2F003FC68A /* NSString+Trims.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -435,6 +507,12 @@
 			children = (
 				E2BD7E411C5B19D700445A18 /* UIView+Extension.h */,
 				E2BD7E421C5B19D700445A18 /* UIView+Extension.m */,
+				E2DA11481C717E84003FC68A /* UIButton+Block.h */,
+				E2DA11491C717E84003FC68A /* UIButton+Block.m */,
+				E2DA114B1C717EB4003FC68A /* UIButton+CountDown.h */,
+				E2DA114C1C717EB4003FC68A /* UIButton+CountDown.m */,
+				E2DA11521C71BFE2003FC68A /* UIBarButtonItem+Extension.h */,
+				E2DA11531C71BFE2003FC68A /* UIBarButtonItem+Extension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -470,6 +548,7 @@
 				E2BD7E381C5B046D00445A18 /* DefineDevice.h */,
 				E2BD7E391C5B048800445A18 /* DefineUI.h */,
 				E2BD7E3A1C5B098B00445A18 /* DefineLog.h */,
+				E2DA114E1C71A223003FC68A /* ThirdMacros.h */,
 			);
 			path = "Macros(宏)";
 			sourceTree = "<group>";
@@ -500,6 +579,7 @@
 				E26DE3D41C51CDD100D1326D /* Frameworks */,
 				E26DE3D51C51CDD100D1326D /* Resources */,
 				F8C5EB2E1F9A4F07A842B01A /* Copy Pods Resources */,
+				7501D5D1AB2095E0321E7EAA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -615,6 +695,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7501D5D1AB2095E0321E7EAA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B8491EE87A45A013E57B98DB /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,8 +747,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BD7E461C5B1B8400445A18 /* NewFeatureViewController.m in Sources */,
+				E2DA115A1C71C0B8003FC68A /* MainTabBar.m in Sources */,
+				E2DA11411C716CEB003FC68A /* ReadViewController.m in Sources */,
+				E2DA11511C71BF81003FC68A /* NavigationViewController.m in Sources */,
+				E2DA115D1C71C12A003FC68A /* MainTabButton.m in Sources */,
+				E2DA113E1C716CD7003FC68A /* CourseViewController.m in Sources */,
+				E2DA114A1C717E84003FC68A /* UIButton+Block.m in Sources */,
+				E2DA113B1C716CBC003FC68A /* IndexViewController.m in Sources */,
+				E2DA114D1C717EB4003FC68A /* UIButton+CountDown.m in Sources */,
+				E2DA11471C717B2F003FC68A /* NSString+Trims.m in Sources */,
+				E2DA11441C716CFA003FC68A /* MeViewController.m in Sources */,
+				E2DA11541C71BFE2003FC68A /* UIBarButtonItem+Extension.m in Sources */,
+				E2BD7E491C5B466C00445A18 /* NSDictionary+Log.m in Sources */,
 				E26DE3DF1C51CDD100D1326D /* AppDelegate.m in Sources */,
+				E2DA11571C71C05F003FC68A /* TabBarViewController.m in Sources */,
 				E26DE3DC1C51CDD100D1326D /* main.m in Sources */,
+				E2DA11611C71C442003FC68A /* LaunchImgViewController.m in Sources */,
 				E2BD7E431C5B19D700445A18 /* UIView+Extension.m in Sources */,
 				E2BD7E401C5B18D300445A18 /* NSDate+Extension.m in Sources */,
 			);
@@ -787,6 +897,7 @@
 			baseConfigurationReference = 9459A5E675BA79E77AD39635 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CDDBaseProject/PrefixHeader.pch";
 				INFOPLIST_FILE = CDDBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDDBaseProject;
@@ -799,6 +910,7 @@
 			baseConfigurationReference = BB8E0375F031604F01D6424D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CDDBaseProject/PrefixHeader.pch";
 				INFOPLIST_FILE = CDDBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDDBaseProject;

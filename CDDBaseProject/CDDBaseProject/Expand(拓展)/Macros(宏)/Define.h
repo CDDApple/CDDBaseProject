@@ -13,5 +13,6 @@
 #import "DefineUI.h"
 #import "DefineLog.h"
 #import "DefineAPI.h"
+#import "ThirdMacros.h"
 
 #endif /* Define_h */

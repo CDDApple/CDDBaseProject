@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LaunchImgViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    // 选择根控制器
+    self.window.rootViewController = [[LaunchImgViewController alloc] init];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
