@@ -11,7 +11,7 @@
 #import "NavigationViewController.h"
 
 #import "IndexViewController.h"
-#import "CourseViewController.h"
+#import "ClassViewController.h"
 #import "ReadViewController.h"
 #import "MeViewController.h"
 
@@ -55,19 +55,19 @@
 {
     // 首页
     IndexViewController *indexVC = [[IndexViewController alloc] init];
-    [self addOneChildVcClass:indexVC image:@"investment" selectedImage:@"investment_selected"];
-    
-    // 课程
-    CourseViewController *courseVC = [[CourseViewController alloc] init];
-    [self addOneChildVcClass:courseVC image:@"integralShop" selectedImage:@"integralShop_selected"];
-    
+    [self addOneChildVcClass:indexVC image:@"read1" selectedImage:@"read_selected1"];
+
     // 读刻
     ReadViewController *readVC = [[ReadViewController alloc] init];
-    [self addOneChildVcClass:readVC image:@"riches" selectedImage:@"riches_selected"];
+    [self addOneChildVcClass:readVC image:@"read1" selectedImage:@"read_selected1"];
+    
+    // 班级
+    ClassViewController *courseVC = [[ClassViewController alloc] init];
+    [self addOneChildVcClass:courseVC image:@"read1" selectedImage:@"read_selected1"];
     
     // 我
     MeViewController *meVC = [[MeViewController alloc] init];
-    [self addOneChildVcClass:meVC image:@"profile" selectedImage:@"profile_selected"];
+    [self addOneChildVcClass:meVC image:@"read1" selectedImage:@"read_selected1"];
     
 }
 
