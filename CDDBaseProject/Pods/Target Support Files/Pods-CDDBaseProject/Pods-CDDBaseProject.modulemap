@@ -1,6 +1,0 @@
-framework module Pods_CDDBaseProject {
-  umbrella header "Pods-CDDBaseProject-umbrella.h"
-
-  export *
-  module * { export * }
-}
